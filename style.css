@@ -1,0 +1,136 @@
+/* Style sheet for the personal website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 60px;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: black;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #ff9900;
+}
+
+.about {
+    padding: 60px 0;
+}
+
+.section-title {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-text {
+    color:#333; 
+   font-size;18px; 
+   line-height;1.5; 
+   margin;10px; 
+   text-align;justify
+}
+
+.social-icons {
+   display:flex; 
+   justify-content:center; 
+   margin-top;20px
+}
+
+.social-icons li {
+   margin;0 10px
+}
+
+.social-icons li a {
+   color:#333; 
+   font-size;24px
+}
